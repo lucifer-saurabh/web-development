@@ -1,0 +1,58 @@
+.div1 {
+	color: red;
+	background-color: orange;
+	height: 200px;
+	width: 200px;
+	float: left;
+	margin-top:100px;
+	margin-left : 100px;
+	border: 1px black solid;
+}
+
+.div2 {
+	color: blue;
+	background-color: silver;
+	margin: 50px 50px;
+	padding: 50px 10px 50px 50px;
+	border: orange solid 5px;
+}
+
+.div4 {
+	color: blue;
+	background-color: tan;
+	height: 100px;
+	width: 100px;
+	margin: 50px 100px;
+	padding: 50px;
+	float: right;
+	border-left: brown dashed 5px;
+	border-right: blue dashed 5px;
+	border-top: 2px solid black;
+	border-bottom: 2px solid red;
+}
+
+.div5 {
+	color: blue;
+
+	background: url("130407.gif") no-repeat right top;
+	background-size: 200px 100px;
+	height: 300px;
+	width: 500px;
+	margin: 50px 200px;
+	padding: 100px 90px;
+	border=border-top-width: 5px;
+	border-top-color: orange;
+	border-top-style: dashed;
+}
+
+/*** margin/padding : top right bottom left; **/
+/*** margin/padding : top,bottom left,right;**/
+
+/*** boreder-left : 2px solid blue; **/
+/*** boreder-right : 2px solid blue; **/
+/*** boreder-top : 2px solid blue; **/
+/*** boreder-bottom : 2px solid blue; **/
+
+/*** boreder-width : 5px; **/
+/*** boreder-style :solid; **/
+/*** boreder-color : red; **/

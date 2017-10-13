@@ -1,0 +1,58 @@
+* {
+	font-family: arial;
+}
+
+/*Class*/
+.lesson {
+	
+}
+/*ID*/
+#container {
+	
+}
+
+p {
+	
+}
+
+h1 {
+	color: white;
+	font-size: 50px;
+}
+
+body {
+	/*background-color: #4E4B4B;*/
+	color : white;
+	background-image: url(picture.png);
+	background-attachment: fixed;
+}
+
+h2 {
+	background-color: #4E4E4E;
+	padding: 5px;
+}
+
+nav {
+	background-color: grey;
+	color: white;
+	padding: 10px;
+}
+
+nav a {
+
+	border: blue solid 1px;
+	text-decoration: none;
+	padding: 5px;
+	text-transform: uppercase;
+	margin: 10px;
+	background-color: white;
+}
+
+#contactform {
+	background: yellow;
+	position: fixed;
+	bottom :0px;
+	left: 0px;
+	width: 100%;
+	color: black;
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript">
+		function func1(){
+			if (document.newform.box.checked) {
+				alert("Box is checked");
+			} else {
+				alert("Not checked");
+			}
+		}
+	</script>
+</head>
+<body>
+	<form name="newform">
+		<input type="checkbox" name="box">
+		<input type="button" value="Click me" onclick="func1()">
+	</form>
+</body>
+</html>

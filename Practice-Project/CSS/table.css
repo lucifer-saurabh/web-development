@@ -1,0 +1,23 @@
+table {
+	width: 800px;
+}
+
+tr {
+
+}
+
+td {
+	border: 1px solid black;
+	background: silver;
+	text-align: center;
+}
+
+th {
+	background: orange;
+	padding: 10px 20px;
+	border: 1px solid black;
+}
+
+.even {
+	background: white;
+}

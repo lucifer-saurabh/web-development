@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>HTML Course</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+
+
+<script>
+	function helloworld() {
+		alert('More info about the course.');
+	}
+</script>
+
+</head>
+<body>
+	<nav>
+		<a href="index.html">Page 1</a>
+		<a href="index2.html">Page 2</a>
+		<a href="index3.html">Page 3</a>
+	</nav>
+	<div id="container">
+		<h1>Ultimate HTML Course</h1>
+
+		<div class="lesson">
+			<h2>Lesson 1 : Basics of HTML</h2>				
+			<p>Learn HTML and how to use it.</p>
+			<p>Course will introduce.</p>
+			<button type="button" onclick="helloworld()">Show Alert</button>
+		</div>
+		
+		<div class="lesson">
+			<h2 onmouseover="helloworld()">Lesson 2 : <span> HTML Coding How to</span></h2>
+			<p>Learn HTML and <span>how to use it.</span> </p>
+			<p>Course will introduce.</p>
+		</div>	
+	</div>
+
+</body>
+</html>

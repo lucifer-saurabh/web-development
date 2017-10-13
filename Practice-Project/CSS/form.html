@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Form</title>
+	<link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+	<form action="nav.html" method="post" enctype="multipart/form-data">
+		<table>
+		<tr>
+			<td>Upload your image</td>
+			<td><input type="file" name="up_image"></td>
+		</tr>
+			<tr>
+				<td>Your Name</td>
+				<td><input type="text" name="f_name" placeholder="Type your name"></td>
+			</tr>
+			<tr>
+				<td>Last name</td>
+				<td><input type="text" name="l_name" placeholder="Type your last name"></td>
+			</tr>
+
+			<tr>
+				<td>Password</td>
+				<td><input type="password" name="p_name" placeholder="Type your password"></td>
+			</tr>
+
+			<tr>
+				<td>Gender</td>
+				<td>
+					<input type="radio" name="gender" value="male"> Male
+					<input type="radio" name="gender" value="female"> Female
+				</td>
+			</tr>
+			<tr>
+				<td>Your Skills</td>
+				<td>
+					<input type="checkbox" value="html"> : HTML<br>
+					<input type="checkbox" value="php"> : PHP<br>
+					<input type="checkbox" value="css"> : CSS<br> 
+				</td>
+				
+				</tr>
+			<tr>
+				<td>Your Country</td>
+				<td>
+					<select name="country" id="">
+						<option selected value="">Select a country</option>
+						<option value="india">India</option>
+						<option value="pakistan">Pakistan</option>
+						<option value="usa">USA</option>
+						<option value="australia">Austrailia</option>
+						<option value="canada">Canada</option>
+						<option value="britain">Britain</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Comments</td>
+				<td>
+					<textarea>
+						
+					</textarea>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>
+					<input type="submit" value="Click Here" name="submit_but">
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+<script>document.write('<script src="http://' + (location.host || '${1:localhost}').split(':')[0] + ':${2:35729}/livereload.js?snipver=1"></' + 'script>')</script>
+</html>

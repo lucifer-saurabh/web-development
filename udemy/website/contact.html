@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HotShot&reg</title>
+		<meta name="author" content="Saurabh Mirajkar" />
+		<!-- Description -->
+		<meta name="description" content="This is a new site. Please inform if you find some glitches." />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- linking to css file -->
+		<link rel="stylesheet" type="text/css" href="main.css" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<!--HEADER SECTION -->
+			<div id="header">
+				<a href="index.html" title="">
+					<img src="logo.png">
+				</a>
+				<h1>Welcome to HotShot</h1>
+				<div style="clear: both;"></div>
+			</div>
+			<!--NAVIGATION SECTION -->
+			<div id="nav">
+				<ul>
+					<a href="index.html">
+						<li>Home</li>
+					</a>
+					<!--to open new page use target = _blank in <a> tag -->
+					<a href="about.html">
+						<li>About</li>
+					</a>
+					<a href="contact.html">
+						<li>Contact</li>
+					</a>
+				</ul>
+				<div style="clear: both;"></div>
+			</div>
+			<!--MAIN CONTENT -->
+			<div id="content">
+				<h2>Contact Form</h2><br>
+				<form action="#" name="myform">
+					<table>
+						<tr>
+							<td>Upload your image</td>
+							<td><input type="file" name="up_image"></td>
+						</tr>
+						<tr>
+							<td>Your Name</td>
+							<td><input type="text" name="f_name" placeholder="Type your name"></td>
+							<td>Last name</td>
+							<td><input type="text" name="l_name" placeholder="Type your last name"></td>
+						</tr>
+						<tr>
+							<td>Password</td>
+							<td><input type="password" name="p_name" placeholder="Type your password"></td>
+							<td>Confirm Password</td>
+							<td><input type="password" name="p_name" placeholder="Type your password"></td>
+						</tr>
+						<tr>
+							<td>Gender</td>
+							<td>
+								<input type="radio" name="gender" value="male"> Male
+								<input type="radio" name="gender" value="female"> Female
+							</td>
+						</tr>
+						<tr>
+							<td>Your Skills</td>
+							<td>
+								<input type="checkbox" value="html"> : HTML<br>
+								<input type="checkbox" value="css"> : CSS<br>
+								<input type="checkbox" value="php"> : PHP<br>
+								<input type="checkbox" value="javascript"> : JAVASCRIPT<br>
+							</td>
+							
+						</tr>
+						<tr>
+							<td>Your Country</td>
+							<td>
+								<select name="country" id="">
+									<option selected value="">Select a country</option>
+									<option value="india">India</option>
+									<option value="pakistan">Pakistan</option>
+									<option value="usa">USA</option>
+									<option value="australia">Austrailia</option>
+									<option value="canada">Canada</option>
+									<option value="britain">Britain</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td>Comments</td>
+							<td>
+								<textarea>
+								
+								</textarea>
+							</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td>
+								<!-- <input type="submit" value="Submit" name="submit_but"> -->
+								<button type="submit" name="submit" value="Submit">Submit</button>
+							</td>
+						</tr>
+					</table>
+				</form>
+				<div style="clear: both;"></div>
+			</div>
+			<!--FOOTER SECTION -->
+			<div id="footer">
+				Site designed by <a href="http://www.google.com" target="_blank">HotShot</a> &reg 2017
+			</div>
+		</div>
+	</body>
+</html>

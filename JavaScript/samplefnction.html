@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript">
+		
+	function people(name,age){
+		this.name = name;
+		this.age = age;
+		this.yearsuntilret = yearsleft;
+	}
+
+	function yearsleft(){
+		var numyears = 65 - this.age;
+		return numyears;
+	}
+
+	var abc = new people("abc",25);
+
+	</script>
+</head>
+<body>
+	<script type="text/javascript">
+		
+		document.write(abc.yearsuntilret())
+
+	</script>
+</body>
+</html>
